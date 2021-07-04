@@ -1,0 +1,22 @@
+// This file contains the parameters for the mpc bicycle model.
+// "//" means it is commented. Comments are not accepted in any other way.
+// Format: variable_name = value
+// Give a space between varaible name and '=' and also between '=' and the value.
+
+// N = Horizon Length, dtype = int
+N = 8
+
+// T = Sampling time period, dtype = double
+T = 0.1
+
+// target_x = the x coordinate of the target point
+target_x = 5.5
+
+// target_y = the y coordinate of the target point
+target_y = 5.0
+
+// target_theta = the theta coordinate of the target point
+target_theta = 0
+
+// L = length, the length of the bicycle.
+L = 1
